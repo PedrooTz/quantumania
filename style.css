@@ -7,60 +7,77 @@ body{
     height: 70vh;
     
 }
+
 header{
     margin-bottom: 150px;
     margin-top: 50px;
     margin-left: 50px;
+    color: white;
+    font-size: xx-large;
+
+    
+}
+main{
+    display: flex;
+}
+.action{
+    align-items: center;
+    justify-content: center;
 }
 footer{
     margin-left: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
+    
 }
-.title__text{
+.title-text{
     color: white;
     width: 700px;
     font-family: Lato, sans-serif;
     margin-left: 50px;
     margin-bottom: 100px;
-    display: flex;
-    position: absolute;
+    display: grid;
+    width: 600px;
+   
 }
-.description__text{
+.description-text{
     color: white;
     margin-left: 50px;
-    margin-right: 750px;
-    font-size: larger;
+    margin-right: 1300px;
+    font-size: xx-large;
     font-family: Lato, sans-serif;
-    width: 300px;
+    width: 400px;
     display: flex;
+    place-self: center start;
 
 }
 .description__logo{
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .video__1{
     margin-right: 50px;
+    gap: 10px;
 }
 .video__2{
     margin-right: 50px;
+    
 }
-.redes__sociais{
+.redes-sociais{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 750px;
+    margin-top: 100px;
+    margin-left: 630px;
 }
 .youtube{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .twitter{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 .instagram{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }   
 .background-image{
-    position: absolute;
     top: 50%;
 }
 
